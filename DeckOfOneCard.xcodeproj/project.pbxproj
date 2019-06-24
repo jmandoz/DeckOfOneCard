@@ -12,6 +12,7 @@
 		A4EA24F322C1353500B8941F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EA24F222C1353500B8941F /* Assets.xcassets */; };
 		A4EA24F622C1353500B8941F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA24F422C1353500B8941F /* LaunchScreen.storyboard */; };
 		A4EA250022C13A2100B8941F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA24FF22C13A2100B8941F /* Card.swift */; };
+		A4EA250422C140D800B8941F /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA250322C140D800B8941F /* CardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A4EA24F522C1353500B8941F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EA24F722C1353500B8941F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4EA24FF22C13A2100B8941F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A4EA250322C140D800B8941F /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A4EA250222C13C2100B8941F /* Model */,
 				A4EA24FD22C1360800B8941F /* resources */,
 				A4EA24FE22C1362100B8941F /* StoryBoard */,
+				A4EA250322C140D800B8941F /* CardController.swift */,
 			);
 			path = DeckOfOneCard;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EA24E922C1353400B8941F /* AppDelegate.swift in Sources */,
+				A4EA250422C140D800B8941F /* CardController.swift in Sources */,
 				A4EA250022C13A2100B8941F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
